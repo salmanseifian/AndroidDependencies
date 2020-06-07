@@ -5,7 +5,7 @@ It is an Android module which contains base dependencies for creating an app
 
 ```
 apply plugin: "kotlin-kapt"
-apply from: './dependencies.gradle'
+apply from: '../AndroidDependencies/dependencies.gradle'
 ```
 
 ## Appcompat

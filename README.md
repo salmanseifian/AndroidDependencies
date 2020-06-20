@@ -153,7 +153,7 @@ implementation "io.reactivex.rxjava3:rxjava:$rx_version"
 implementation "io.reactivex.rxjava3:rxkotlin:$rx_version"
 ```
 
-# RxBinding
+## RxBinding
 [latest version](https://github.com/JakeWharton/RxBinding/releases)
 
 ```

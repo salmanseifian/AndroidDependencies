@@ -144,13 +144,22 @@ implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_ver
 ```
 
 ## RxAndroid
-[latest_version](https://github.com/ReactiveX/RxAndroid/releases)
+[latest version](https://github.com/ReactiveX/RxAndroid/releases)
 
 ```
 def rx_version = "3.0.0"
 implementation "io.reactivex.rxjava3:rxandroid:$rx_version"
 implementation "io.reactivex.rxjava3:rxjava:$rx_version"
 implementation "io.reactivex.rxjava3:rxkotlin:$rx_version"
+```
+
+# RxBinding
+[latest version](https://github.com/JakeWharton/RxBinding/releases)
+
+```
+def rxbinding_version = "4.0.0"
+implementation "com.jakewharton.rxbinding4:rxbinding:$rxbinding_version"
+implementation "com.jakewharton.rxbinding4:rxbinding-kotlin:$rxbinding_version"
 ```
 
 ## Material Components for Android

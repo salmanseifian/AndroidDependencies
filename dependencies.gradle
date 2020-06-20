@@ -64,6 +64,10 @@ dependencies {
     implementation "io.reactivex.rxjava3:rxjava:$rx_version"
     implementation "io.reactivex.rxjava3:rxkotlin:$rx_version"
 
+    def rxbinding_version = "4.0.0"
+    implementation "com.jakewharton.rxbinding4:rxbinding:$rxbinding_version"
+    implementation "com.jakewharton.rxbinding4:rxbinding-kotlin:$rxbinding_version"
+
     def material_version = "1.1.0"
     implementation "com.google.android.material:material:$material_version"
 

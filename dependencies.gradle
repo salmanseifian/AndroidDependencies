@@ -63,14 +63,16 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version"
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version"
 
-    def rx_version = "3.0.0"
-    implementation "io.reactivex.rxjava3:rxandroid:$rx_version"
-    implementation "io.reactivex.rxjava3:rxjava:$rx_version"
-    implementation "io.reactivex.rxjava3:rxkotlin:$rx_version"
+    def rxAndroid_version = "2.1.1"
+    implementation "io.reactivex.rxjava2:rxandroid:$rxAndroid_version"
+    def rxJava_version = "2.2.19"
+    implementation "io.reactivex.rxjava2:rxjava:$rxJava_version"
+    def rxKotlin_version = "2.4.0"
+    implementation "io.reactivex.rxjava2:rxkotlin:$rxKotlin_version"
 
-    def rxbinding_version = "4.0.0"
-    implementation "com.jakewharton.rxbinding4:rxbinding:$rxbinding_version"
-    implementation "com.jakewharton.rxbinding4:rxbinding-kotlin:$rxbinding_version"
+    def rxbinding_version = "2.2.0"
+    implementation "com.jakewharton.rxbinding2:rxbinding:$rxbinding_version"
+    implementation "com.jakewharton.rxbinding2:rxbinding-kotlin:$rxbinding_version"
 
     def material_version = "1.1.0"
     implementation "com.google.android.material:material:$material_version"
